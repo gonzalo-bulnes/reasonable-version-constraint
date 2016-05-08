@@ -1,0 +1,21 @@
+{
+  "name": "Reasonable Version Constraint",
+  "description": "Provides a reasonable version constraint for Ruby gems.",
+  "keywords": [
+    "ruby",
+    "semantic versioning",
+    "bundler",
+    "agile",
+    "individuals and interactions",
+    "version constraint"
+  ],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate db:seed"
+  },
+  "addons": [],
+  "env": {
+    "LANG": "en_US.UTF-8",
+    "RAILS_ENV": "production"
+  }
+}
+
