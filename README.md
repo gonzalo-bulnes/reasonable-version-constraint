@@ -1,6 +1,11 @@
 Reasonable Version Constraint
 =============================
 
+[![Build Status](https://travis-ci.org/gonzalo-bulnes/reasonable-version-constraint.svg?branch=master)](https://travis-ci.org/gonzalo-bulnes/reasonable-version-constraint)
+[![Code Climate](https://codeclimate.com/github/gonzalo-bulnes/reasonable-version-constraint/badges/gpa.svg)](https://codeclimate.com/github/gonzalo-bulnes/reasonable-version-constraint)
+[![Dependency Status](https://gemnasium.com/badges/github.com/gonzalo-bulnes/reasonable-version-constraint.svg)](https://gemnasium.com/github.com/gonzalo-bulnes/reasonable-version-constraint)
+[![Inline Docs](http://inch-ci.org/github/gonzalo-bulnes/reasonable-version-constraint.svg?branch=master&style=shields)](http://inch-ci.org/github/gonzalo-bulnes/reasonable-version-constraint)
+
 Provides a _reasonable_ version constraint for Ruby gems.
 
 Usage
