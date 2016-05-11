@@ -41,7 +41,7 @@ namespace :app_json do
     # check if the app.json validator is available
     `which app.json`
     if $?.exitstatus != 0
-      abort <<-eos.gsub /^( |\t)+/, ""
+      abort <<-eos.gsub(/^( |\t)+/, "")
         The #{Rainbow('app.json').red} program is not available.
         You may want to install it in order to validate the app.json file.
         Try #{Rainbow('`npm install app.json --global`').yellow} (use `sudo` if necessary)

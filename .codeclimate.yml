@@ -1,0 +1,16 @@
+---
+engines:
+  fixme:
+    enabled: true
+  duplication:
+    enabled: true
+    exclude_fingerprints:
+    - a493a604b888117652c1c9303270ddfa
+  eslint:
+    enabled: true
+    exclude_fingerprints:
+    - 81f1db8cc66fe7d124f1ecde5904b4e5
+ratings:
+  paths: []
+exclude_paths: []
+
