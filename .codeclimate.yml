@@ -1,20 +1,22 @@
 ---
 engines:
+  brakeman:
+    enabled: true
+  bundler-audit:
+    enabled: true
   fixme:
     enabled: true
-  duplication:
+  rubocop:
     enabled: true
-    config:
-      languages:
-      - ruby
-      - javascript
-    exclude_fingerprints:
-    - a493a604b888117652c1c9303270ddfa
   eslint:
     enabled: true
-    exclude_fingerprints:
-    - 81f1db8cc66fe7d124f1ecde5904b4e5
+  scss-lint:
+    enabled: true
 ratings:
-  paths: []
+  paths:
+    - Gemfile.lock
+    - "**.js"
+    - "**.rb"
+    - "**.scss"
 exclude_paths: []
 
