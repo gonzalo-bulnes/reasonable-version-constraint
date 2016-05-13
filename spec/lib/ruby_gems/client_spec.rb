@@ -3,7 +3,7 @@ require 'spec_helper'
 require 'ruby_gems/client'
 
 module RubyGems
-  describe Client do
+  describe Client, protected: true do
 
     let(:rubygems) { Client.new }
 
