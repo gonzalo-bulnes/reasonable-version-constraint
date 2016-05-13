@@ -29,9 +29,9 @@ module RubyGems
 
         let(:gem_name) { 'inexisting' }
 
-        it 'raises a RubyGemNotFoundError' do
+        it 'raises a Client::RubyGemNotFoundError' do
           VCR.use_cassette("versions_404_error") do
-            expect{ rubygems.get_versions(gem_name) }.to raise_error RubyGemNotFoundError
+            expect{ rubygems.get_versions(gem_name) }.to raise_error Client::RubyGemNotFoundError
           end
         end
       end

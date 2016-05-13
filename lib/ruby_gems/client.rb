@@ -2,23 +2,18 @@ require 'json'
 require 'net/http'
 require 'uri'
 
+require 'ruby_gems/client/errors'
+
 module RubyGems
 
-  class RubyGemNotFoundError < RuntimeError
-
-    def initialize(gem_name)
-      @gem_name = gem_name
-    end
-
-    def to_s
-      "The rubygem could not be found: #{@gem_name} - only gems hosted at Rubygems.org are supported."
-    end
-  end
-
+  # Retrives data from the Rubygems.org API
   class Client
 
-    UnexpectedResponseError = Class.new(RuntimeError)
-
+    # Fetch data about a gem versions
+    #
+    # gem_name - String
+    #
+    # Returns an Array of version numbers or raises Client::RubyGemNotFound error.
     def get_versions(gem_name)
       uri = URI("https://rubygems.org/api/v1/versions/#{gem_name}.json")
       response = Net::HTTP.get_response(uri)
@@ -39,4 +34,3 @@ module RubyGems
     end
   end
 end
-
