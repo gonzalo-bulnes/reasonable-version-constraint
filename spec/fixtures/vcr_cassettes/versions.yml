@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 13 May 2016 12:46:14 GMT
+      - Fri, 13 May 2016 13:33:59 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -43,26 +43,26 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9aff27b7-2d8f-4b65-b367-aa6370ae29e2
+      - cf568742-3960-4a61-8644-67253fcb0860
       X-Runtime:
-      - '0.062615'
+      - '0.044765'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
     body:
       encoding: ASCII-8BIT
-      string: '[{"authors":"Gonzalo Bulnes Guilpain","built_at":"2016-04-20T00:00:00.000Z","created_at":"2016-04-20T10:22:04.621Z","description":"","downloads_count":2622,"metadata":{},"number":"1.13.0","summary":"Simple
+      string: '[{"authors":"Gonzalo Bulnes Guilpain","built_at":"2016-04-20T00:00:00.000Z","created_at":"2016-04-20T10:22:04.621Z","description":"","downloads_count":2624,"metadata":{},"number":"1.13.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPL-3.0+"],"requirements":[],"sha":"ea80c2d72b46846c7846c187f22142c62ab4c0d7cf67b372441641c9a34f8729"},{"authors":"Gonzalo
-        Bulnes Guilpain","built_at":"2016-01-06T00:00:00.000Z","created_at":"2016-01-06T15:59:20.034Z","description":"","downloads_count":18714,"metadata":{},"number":"1.12.0","summary":"Simple
+        Bulnes Guilpain","built_at":"2016-01-06T00:00:00.000Z","created_at":"2016-01-06T15:59:20.034Z","description":"","downloads_count":18725,"metadata":{},"number":"1.12.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPL-3.0+"],"requirements":[],"sha":"729f04930560996a7dcc5c2259c6b36fa3438bdf92293169900e965dea3b898b"},{"authors":"Gonzalo
         Bulnes Guilpain","built_at":"2015-12-14T00:00:00.000Z","created_at":"2015-12-14T19:40:13.187Z","description":"","downloads_count":5316,"metadata":{},"number":"1.11.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPL-3.0+"],"requirements":[],"sha":"5df4617e320bdf95ad46011f0c8f43751389749ca8d71064a81c32bbb15c80fd"},{"authors":"Gonzalo
-        Bulnes Guilpain","built_at":"2015-11-10T00:00:00.000Z","created_at":"2015-11-10T22:11:04.606Z","description":"","downloads_count":9589,"metadata":{},"number":"1.10.1","summary":"Simple
+        Bulnes Guilpain","built_at":"2015-11-10T00:00:00.000Z","created_at":"2015-11-10T22:11:04.606Z","description":"","downloads_count":9595,"metadata":{},"number":"1.10.1","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPLv3"],"requirements":[],"sha":"10216bd139c6a80788a9a3a1d9156a3ffae78631ed8edca2d8ec74bf43b32d58"},{"authors":"Gonzalo
-        Bulnes Guilpain","built_at":"2015-06-03T00:00:00.000Z","created_at":"2015-06-03T23:36:08.746Z","description":"","downloads_count":35981,"metadata":{},"number":"1.10.0","summary":"Simple
+        Bulnes Guilpain","built_at":"2015-06-03T00:00:00.000Z","created_at":"2015-06-03T23:36:08.746Z","description":"","downloads_count":35996,"metadata":{},"number":"1.10.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPLv3"],"requirements":[],"sha":"2de1cd8beed23b1906f7c9fc4d48791d5e0604bb882ba92116063a584be639fb"},{"authors":"Gonzalo
         Bulnes Guilpain","built_at":"2015-04-28T00:00:00.000Z","created_at":"2015-04-29T02:52:15.400Z","description":"","downloads_count":8337,"metadata":{},"number":"1.9.1","summary":"Simple
@@ -71,13 +71,13 @@ http_interactions:
         Bulnes Guilpain","built_at":"2015-04-24T00:00:00.000Z","created_at":"2015-04-24T01:48:58.256Z","description":"","downloads_count":1014,"metadata":{},"number":"1.9.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPLv3"],"requirements":[],"sha":"2956086e6b3367f3b2386363c911df9c60a25c471149fdec729c9da314cf12a5"},{"authors":"Gonzalo
-        Bulnes Guilpain","built_at":"2015-02-21T00:00:00.000Z","created_at":"2015-02-21T19:20:19.130Z","description":"","downloads_count":22776,"metadata":{},"number":"1.8.0","summary":"Simple
+        Bulnes Guilpain","built_at":"2015-02-21T00:00:00.000Z","created_at":"2015-02-21T19:20:19.130Z","description":"","downloads_count":22777,"metadata":{},"number":"1.8.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPLv3"],"requirements":[],"sha":"3455c1e406d3860d45e5a3963d7de1fdbf03e2f88d3bab807171e7581a367440"},{"authors":"Gonzalo
         Bulnes Guilpain","built_at":"2014-11-27T00:00:00.000Z","created_at":"2014-11-27T07:10:12.855Z","description":"","downloads_count":17721,"metadata":{},"number":"1.7.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPLv3"],"requirements":[],"sha":"4831392c758ff18a01979301ee0727e6577973d13114063a3b1fba71406f6f9b"},{"authors":"Gonzalo
-        Bulnes Guilpain","built_at":"2014-10-24T00:00:00.000Z","created_at":"2014-10-24T17:05:06.059Z","description":"","downloads_count":7238,"metadata":{},"number":"1.6.0","summary":"Simple
+        Bulnes Guilpain","built_at":"2014-10-24T00:00:00.000Z","created_at":"2014-10-24T17:05:06.059Z","description":"","downloads_count":7241,"metadata":{},"number":"1.6.0","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":"\u003e=
         0","prerelease":false,"licenses":["GPLv3"],"requirements":[],"sha":"413d1012bd35e626d23c658343deebb6eeb012449ababbf4d00e4cc7f180a414"},{"authors":"Gonzalo
         Bulnes Guilpain","built_at":"2014-10-21T00:00:00.000Z","created_at":"2014-10-21T14:08:20.262Z","description":"","downloads_count":1605,"metadata":{},"number":"1.5.2","summary":"Simple
@@ -119,5 +119,5 @@ http_interactions:
         Bulnes Guilpain","built_at":"2014-01-07T00:00:00.000Z","created_at":"2014-01-07T23:51:02.038Z","description":null,"downloads_count":495,"metadata":{},"number":"1.0.0.beta.5","summary":"Simple
         (but safe) token authentication for Rails apps or API with Devise.","platform":"ruby","ruby_version":null,"prerelease":true,"licenses":["GPLv3"],"requirements":[],"sha":"bd23004950f28e8b7c624af810411fae893e0f46d6cb226af18c370bb436c201"}]'
     http_version: 
-  recorded_at: Fri, 13 May 2016 12:46:14 GMT
+  recorded_at: Fri, 13 May 2016 13:33:59 GMT
 recorded_with: VCR 3.0.1

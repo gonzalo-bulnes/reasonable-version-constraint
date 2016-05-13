@@ -24,6 +24,17 @@ module RubyGems
           end
         end
       end
+
+      context 'with an inexisting gem name as argument' do
+
+        let(:gem_name) { 'inexisting' }
+
+        it 'raises a RubyGemNotFoundError' do
+          VCR.use_cassette("versions_404_error") do
+            expect{ rubygems.get_versions(gem_name) }.to raise_error RubyGemNotFoundError
+          end
+        end
+      end
     end
   end
 end
