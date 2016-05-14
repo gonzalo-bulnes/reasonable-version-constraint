@@ -1,4 +1,4 @@
-When(/^I visit the Reasonable Version Constraint$/) do
+When(/^I visit the home page$/) do
   visit('/')
 end
 
