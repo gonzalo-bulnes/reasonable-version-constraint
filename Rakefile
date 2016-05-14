@@ -1,6 +1,7 @@
 # Add your own tasks in files placed in lib/tasks ending in .rake,
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
+require 'English'
 require 'rainbow'
 
 require_relative 'config/application'
@@ -16,14 +17,14 @@ begin
   namespace :spec do
     desc 'Provide public interfaces documentation'
     RSpec::Core::RakeTask.new(:public) do |t|
-      t.rspec_opts = "--tag public"
+      t.rspec_opts = '--tag public'
     end
   end
 
   namespace :spec do
     desc 'Provide private interfaces documentation for development purpose'
     RSpec::Core::RakeTask.new(:development) do |t|
-      t.rspec_opts = "--tag protected --tag private"
+      t.rspec_opts = '--tag protected --tag private'
     end
   end
 rescue LoadError
@@ -40,8 +41,8 @@ namespace :app_json do
 
     # check if the app.json validator is available
     `which app.json`
-    if $?.exitstatus != 0
-      abort <<-eos.gsub(/^( |\t)+/, "")
+    if $CHILD_STATUS.exitstatus != 0
+      abort <<-eos.gsub(/^( |\t)+/, '')
         The #{Rainbow('app.json').red} program is not available.
         You may want to install it in order to validate the app.json file.
         Try #{Rainbow('`npm install app.json --global`').yellow} (use `sudo` if necessary)
@@ -62,4 +63,3 @@ namespace :app_json do
 end
 
 task default: ['spec:public', 'spec:development', :cucumber, 'app_json:validate']
-

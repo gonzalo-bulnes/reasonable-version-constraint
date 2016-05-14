@@ -22,9 +22,9 @@ module RubyGems
       when '200'
         versions = JSON.parse(response.body.to_s)
       when '404'
-        raise RubyGemNotFoundError.new(gem_name)
+        raise RubyGemNotFoundError, "The rubygem could not be found: #{gem_name} - only gems hosted by Rubygems.org are supported."
       else
-        raise UnexpectedResponseError.new
+        raise UnexpectedResponseError, "This client can't handle: #{responde.code} - #{response.message}"
       end
 
       versions.inject([]) do |version_numbers, version|

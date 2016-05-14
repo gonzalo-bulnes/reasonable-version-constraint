@@ -34,7 +34,7 @@ end
 
 group :test do
   gem 'database_cleaner', '~> 1.0'
-  gem 'cucumber-rails', '~> 1.0', :require => false
+  gem 'cucumber-rails', '~> 1.0', require: false
   gem 'rspec-rails', '~> 3.0'
   gem 'vcr', '~> 3.0'
   gem 'webmock', '~> 2.0'
@@ -42,4 +42,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
