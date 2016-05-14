@@ -574,19 +574,19 @@ Style/EmptyLinesAroundAccessModifier:
 
 Style/EmptyLinesAroundBlockBody:
   Description: "Keeps track of empty lines around block bodies."
-  Enabled: true
+  Enabled: false
 
 Style/EmptyLinesAroundClassBody:
   Description: "Keeps track of empty lines around class bodies."
-  Enabled: true
+  Enabled: false
 
 Style/EmptyLinesAroundModuleBody:
   Description: "Keeps track of empty lines around module bodies."
-  Enabled: true
+  Enabled: false
 
 Style/EmptyLinesAroundMethodBody:
   Description: "Keeps track of empty lines around method bodies."
-  Enabled: true
+  Enabled: false
 
 Style/EmptyLiteral:
   Description: 'Prefer literals to Array.new/Hash.new/String.new.'
