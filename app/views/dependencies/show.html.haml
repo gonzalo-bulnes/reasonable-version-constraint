@@ -1,0 +1,32 @@
+%h1 Reasonable Version Constraint
+
+%h2= @dependency.name
+
+%img{ src: 'https://img.shields.io/badge/semantic%20versioning-yes-brightgreen.svg', alt: 'Semantic Versioning Assessment' }
+
+%p
+  This gem adheres to the <strong>semantic versioning</strong> convention.
+
+%p
+  Source of the data used for the versioning scheme assessment:
+  %a{ href: 'https://rubygems.org' } Rubygems.org
+
+%h3 Recommended version constraint
+
+%p
+  Recommended version constraint:
+  %code '~> 1.0'
+
+%h4 Benefits
+
+%p Every time you <code>bundle update</code>, this <a href='http://guides.rubygems.org/patterns/#pessimistic-version-constraint'>pessimistic version constraint</a> will allow you to get:
+
+%ul
+  %li the latest security updates and bug fixes
+  %li the latest backward-compatible features
+  %li none of the non-backward-compatible features
+
+%h4 Risks
+
+This <a href='http://guides.rubygems.org/patterns/#pessimistic-version-constraint'>pessimistic version constraint</a> keeps the <code>bundle update</code> command safe unless the gem maintainers make a mistake, which is quite unlikely.
+

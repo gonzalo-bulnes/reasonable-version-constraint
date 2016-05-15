@@ -1,0 +1,7 @@
+%h1 Reasonable Version Constraint
+
+= form_for @dependency, url: { action: 'create' } do |f|
+  = f.label :name, 'Gem name'
+  = f.text_field :name
+  = f.submit 'Analyse'
+

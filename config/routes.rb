@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  root to: 'high_voltage/pages#show', id: 'landing'
+  get 'rubygems/:dependency_name', to: 'dependencies#show'
+  post 'rubygems', to: 'dependencies#create'
+
+  root to: 'dependencies#new'
 end

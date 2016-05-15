@@ -16,9 +16,11 @@ gem 'jbuilder', '~> 2.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'factory_girl_rails', '~> 4.0'
 gem 'haml', '~> 4.0'
 gem 'high_voltage', '~> 3.0'
 gem 'rainbow', '~> 2.0'
+gem 'responders', '~> 2.0'
 
 group :development, :test do
   gem 'byebug', '~> 8.0', platform: :mri
@@ -35,6 +37,7 @@ end
 group :test do
   gem 'database_cleaner', '~> 1.0'
   gem 'cucumber-rails', '~> 1.0', :require => false
+  gem 'rails-controller-testing', '0.1.1'
   gem 'rspec-rails', '~> 3.0'
 end
 
